@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.tiquetaque.admin"
+    namespace "com.medical.app"
     defaultConfig {
-        applicationId "com.tiquetaque.admin"
+        applicationId "com.medical.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

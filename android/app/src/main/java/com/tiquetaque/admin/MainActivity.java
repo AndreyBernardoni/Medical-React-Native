@@ -1,5 +1,5 @@
 
-package com.tiquetaque.admin;
+package com.medical.app;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

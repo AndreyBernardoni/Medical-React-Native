@@ -636,7 +636,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiquetaque.admin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medical.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medical.app/Medical";
 			};
@@ -660,7 +660,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiquetaque.admin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medical.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medical.app/Medical";
 			};
@@ -689,7 +689,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiquetaque.admin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medical.app;
 				PRODUCT_NAME = Medical;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -725,7 +725,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tiquetaque.admin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medical.app;
 				PRODUCT_NAME = Medical;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

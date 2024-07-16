@@ -1,4 +1,4 @@
-package com.tiquetaque.admin;
+package com.medical.app;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
