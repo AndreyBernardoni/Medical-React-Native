@@ -3461,10 +3461,10 @@
 		46EB2E0001DD50 /* RNCSafeAreaViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000D3D0 /* RNCSafeAreaViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E0001DD60 /* RNCSafeAreaViewMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000D3F0 /* RNCSafeAreaViewMode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E0001DDC0 /* react-native-safe-area-context-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E0001DDB0 /* react-native-safe-area-context-dummy.m */; };
-		46EB2E0001DEA0 /* Pods-AdminTiqueTaque-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0001DE90 /* Pods-AdminTiqueTaque-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E0001DF00 /* Pods-AdminTiqueTaque-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E0001DEF0 /* Pods-AdminTiqueTaque-dummy.m */; };
-		46EB2E0001DFE0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0001DFD0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E0001E040 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E0001E030 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-dummy.m */; };
+		46EB2E0001DEA0 /* Pods-Medical-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0001DE90 /* Pods-Medical-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E0001DF00 /* Pods-Medical-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E0001DEF0 /* Pods-Medical-dummy.m */; };
+		46EB2E0001DFE0 /* Pods-Medical-MedicalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0001DFD0 /* Pods-Medical-MedicalTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E0001E040 /* Pods-Medical-MedicalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E0001E030 /* Pods-Medical-MedicalTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -6007,9 +6007,9 @@
 /* Begin PBXFileReference section */
 		1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "RCT-Folly"; path = "libRCT-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E649614D7644BF68C2F5D4CB3FBF8DC /* React-NativeModulesApple */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-NativeModulesApple"; path = "libReact-NativeModulesApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232107164BA8AFDF71395DFE7822189A /* Pods-Medical-MedicalTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Medical-MedicalTests"; path = "libPods-Medical-MedicalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2577F299FCB0A19824FE989BE77B8E8F /* React-jsinspector */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsinspector"; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269BE773C9482484B70949A40F4EA525 /* React-RCTSettings */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTSettings"; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC429DF3447F9C69CBFA659B6D81152 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests"; path = "libPods-AdminTiqueTaque-AdminTiqueTaqueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37592FDAD45752511010F4B06AC57355 /* React-cxxreact */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-cxxreact"; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		396DAFDC3DCFBF31A37A3CC9488C0DDC /* Flipper-Fmt */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-Fmt"; path = "libFlipper-Fmt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D0105B481E5FB78C661496BD63B8A5 /* React-RCTAppDelegate */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTAppDelegate"; path = "libReact-RCTAppDelegate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -9580,24 +9580,24 @@
 		46EB2E0001DD90 /* react-native-safe-area-context.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "react-native-safe-area-context.release.xcconfig"; sourceTree = "<group>"; };
 		46EB2E0001DDA0 /* react-native-safe-area-context-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-safe-area-context-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E0001DDB0 /* react-native-safe-area-context-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-safe-area-context-dummy.m"; sourceTree = "<group>"; };
-		46EB2E0001DE60 /* Pods-AdminTiqueTaque.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminTiqueTaque.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E0001DE70 /* Pods-AdminTiqueTaque.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminTiqueTaque.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E0001DE80 /* Pods-AdminTiqueTaque.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdminTiqueTaque.modulemap"; sourceTree = "<group>"; };
-		46EB2E0001DE90 /* Pods-AdminTiqueTaque-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdminTiqueTaque-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E0001DEB0 /* Pods-AdminTiqueTaque-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminTiqueTaque-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E0001DEC0 /* Pods-AdminTiqueTaque-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminTiqueTaque-resources.sh"; sourceTree = "<group>"; };
-		46EB2E0001DED0 /* Pods-AdminTiqueTaque-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdminTiqueTaque-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E0001DEE0 /* Pods-AdminTiqueTaque-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdminTiqueTaque-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E0001DEF0 /* Pods-AdminTiqueTaque-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdminTiqueTaque-dummy.m"; sourceTree = "<group>"; };
-		46EB2E0001DFA0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E0001DFB0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E0001DFC0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E0001DFD0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E0001DFF0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E0001E000 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests-resources.sh"; sourceTree = "<group>"; };
-		46EB2E0001E010 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E0001E020 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E0001E030 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E0001DE60 /* Pods-Medical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E0001DE70 /* Pods-Medical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E0001DE80 /* Pods-Medical.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Medical.modulemap"; sourceTree = "<group>"; };
+		46EB2E0001DE90 /* Pods-Medical-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Medical-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E0001DEB0 /* Pods-Medical-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Medical-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E0001DEC0 /* Pods-Medical-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Medical-resources.sh"; sourceTree = "<group>"; };
+		46EB2E0001DED0 /* Pods-Medical-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Medical-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E0001DEE0 /* Pods-Medical-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Medical-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E0001DEF0 /* Pods-Medical-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Medical-dummy.m"; sourceTree = "<group>"; };
+		46EB2E0001DFA0 /* Pods-Medical-MedicalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical-MedicalTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E0001DFB0 /* Pods-Medical-MedicalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Medical-MedicalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E0001DFC0 /* Pods-Medical-MedicalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Medical-MedicalTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E0001DFD0 /* Pods-Medical-MedicalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Medical-MedicalTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E0001DFF0 /* Pods-Medical-MedicalTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Medical-MedicalTests-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E0001E000 /* Pods-Medical-MedicalTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Medical-MedicalTests-resources.sh"; sourceTree = "<group>"; };
+		46EB2E0001E010 /* Pods-Medical-MedicalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Medical-MedicalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E0001E020 /* Pods-Medical-MedicalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Medical-MedicalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E0001E030 /* Pods-Medical-MedicalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Medical-MedicalTests-dummy.m"; sourceTree = "<group>"; };
 		50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNScreens; path = libRNScreens.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCF98CEFF94C742080B6965D537AD0 /* react-native-safe-area-context */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-safe-area-context"; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3357A1CE67C0BF4AE31936A1BE6888 /* YogaKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = YogaKit; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -9606,6 +9606,7 @@
 		65D0A19C165FA1126B1360680FE6DB12 /* Yoga */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Yoga; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E72807891C591E025A75410CD2A26 /* React-perflogger */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-perflogger"; path = "libReact-perflogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6771D231F4C8C5976470A369C474B32E /* React-CoreModules */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-CoreModules"; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C50A0C1B288BAFC5CFCDDF844B4196 /* Pods-Medical */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Medical"; path = "libPods-Medical.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CocoaAsyncSocket; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED2C07E6AE77BBD9A6856E523EF6A06 /* React-debug */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-debug"; path = "libReact-debug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFB7B2992BB53405E6B771A5BA1E97D /* DoubleConversion */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DoubleConversion; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -9621,7 +9622,6 @@
 		A68E5A9B69A3BA0FD52CAF7A354EC93B /* React-RCTNetwork */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTNetwork"; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBB7F62B267CC7C9BBBAE41DE94743B /* Flipper-PeerTalk */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-PeerTalk"; path = "libFlipper-PeerTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SDWebImage; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B11E69AA535C14631FD6FC218019F90D /* Pods-AdminTiqueTaque */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-AdminTiqueTaque"; path = "libPods-AdminTiqueTaque.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7610E9FDE749C16C0B1CDAAF3B2DDC2 /* React-utils */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-utils"; path = "libReact-utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88A54159B245E727A6D16DEFE105A09 /* MMKV */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MMKV; path = libMMKV.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD71E2539823621820F84384064C253A /* React-Core */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-Core"; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -10072,8 +10072,8 @@
 				5E4674603A5D5B9215FFA0F8E69F8B71 /* libwebp */,
 				B88A54159B245E727A6D16DEFE105A09 /* MMKV */,
 				E0B603F54009DAEF6C3BAAE621E5F180 /* MMKVCore */,
-				B11E69AA535C14631FD6FC218019F90D /* Pods-AdminTiqueTaque */,
-				2FC429DF3447F9C69CBFA659B6D81152 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests */,
+				69C50A0C1B288BAFC5CFCDDF844B4196 /* Pods-Medical */,
+				232107164BA8AFDF71395DFE7822189A /* Pods-Medical-MedicalTests */,
 				1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */,
 				F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */,
 				E7178FECB829C9576A3723658B07F087 /* React-Codegen */,
@@ -10128,8 +10128,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E0001DE50 /* Pods-AdminTiqueTaque */,
-				46EB2E0001DF90 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests */,
+				46EB2E0001DE50 /* Pods-Medical */,
+				46EB2E0001DF90 /* Pods-Medical-MedicalTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -16089,38 +16089,38 @@
 			path = "../../ios/Pods/Target Support Files/react-native-safe-area-context";
 			sourceTree = "<group>";
 		};
-		46EB2E0001DE50 /* Pods-AdminTiqueTaque */ = {
+		46EB2E0001DE50 /* Pods-Medical */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E0001DE80 /* Pods-AdminTiqueTaque.modulemap */,
-				46EB2E0001DEE0 /* Pods-AdminTiqueTaque-acknowledgements.markdown */,
-				46EB2E0001DED0 /* Pods-AdminTiqueTaque-acknowledgements.plist */,
-				46EB2E0001DEF0 /* Pods-AdminTiqueTaque-dummy.m */,
-				46EB2E0001DEB0 /* Pods-AdminTiqueTaque-frameworks.sh */,
-				46EB2E0001DEC0 /* Pods-AdminTiqueTaque-resources.sh */,
-				46EB2E0001DE90 /* Pods-AdminTiqueTaque-umbrella.h */,
-				46EB2E0001DE70 /* Pods-AdminTiqueTaque.debug.xcconfig */,
-				46EB2E0001DE60 /* Pods-AdminTiqueTaque.release.xcconfig */,
+				46EB2E0001DE80 /* Pods-Medical.modulemap */,
+				46EB2E0001DEE0 /* Pods-Medical-acknowledgements.markdown */,
+				46EB2E0001DED0 /* Pods-Medical-acknowledgements.plist */,
+				46EB2E0001DEF0 /* Pods-Medical-dummy.m */,
+				46EB2E0001DEB0 /* Pods-Medical-frameworks.sh */,
+				46EB2E0001DEC0 /* Pods-Medical-resources.sh */,
+				46EB2E0001DE90 /* Pods-Medical-umbrella.h */,
+				46EB2E0001DE70 /* Pods-Medical.debug.xcconfig */,
+				46EB2E0001DE60 /* Pods-Medical.release.xcconfig */,
 			);
-			name = "Pods-AdminTiqueTaque";
-			path = "Target Support Files/Pods-AdminTiqueTaque";
+			name = "Pods-Medical";
+			path = "Target Support Files/Pods-Medical";
 			sourceTree = "<group>";
 		};
-		46EB2E0001DF90 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests */ = {
+		46EB2E0001DF90 /* Pods-Medical-MedicalTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E0001DFC0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.modulemap */,
-				46EB2E0001E020 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-acknowledgements.markdown */,
-				46EB2E0001E010 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-acknowledgements.plist */,
-				46EB2E0001E030 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-dummy.m */,
-				46EB2E0001DFF0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-frameworks.sh */,
-				46EB2E0001E000 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-resources.sh */,
-				46EB2E0001DFD0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-umbrella.h */,
-				46EB2E0001DFB0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.debug.xcconfig */,
-				46EB2E0001DFA0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.release.xcconfig */,
+				46EB2E0001DFC0 /* Pods-Medical-MedicalTests.modulemap */,
+				46EB2E0001E020 /* Pods-Medical-MedicalTests-acknowledgements.markdown */,
+				46EB2E0001E010 /* Pods-Medical-MedicalTests-acknowledgements.plist */,
+				46EB2E0001E030 /* Pods-Medical-MedicalTests-dummy.m */,
+				46EB2E0001DFF0 /* Pods-Medical-MedicalTests-frameworks.sh */,
+				46EB2E0001E000 /* Pods-Medical-MedicalTests-resources.sh */,
+				46EB2E0001DFD0 /* Pods-Medical-MedicalTests-umbrella.h */,
+				46EB2E0001DFB0 /* Pods-Medical-MedicalTests.debug.xcconfig */,
+				46EB2E0001DFA0 /* Pods-Medical-MedicalTests.release.xcconfig */,
 			);
-			name = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests";
-			path = "Target Support Files/Pods-AdminTiqueTaque-AdminTiqueTaqueTests";
+			name = "Pods-Medical-MedicalTests";
+			path = "Target Support Files/Pods-Medical-MedicalTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -18688,7 +18688,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E0001DEA0 /* Pods-AdminTiqueTaque-umbrella.h in Headers */,
+				46EB2E0001DEA0 /* Pods-Medical-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -18696,96 +18696,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E0001DFE0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-umbrella.h in Headers */,
+				46EB2E0001DFE0 /* Pods-Medical-MedicalTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		006841DC9E20D688D8EE47BE2F8A5641 /* Pods-AdminTiqueTaque */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E0001DDE0 /* Build configuration list for PBXNativeTarget "Pods-AdminTiqueTaque" */;
-			buildPhases = (
-				46EB2E0001DE20 /* Headers */,
-				46EB2E0001DE30 /* Sources */,
-				46EB2E0001DE40 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E0001E0C0 /* PBXTargetDependency */,
-				46EB2E0001E0E0 /* PBXTargetDependency */,
-				46EB2E0001E100 /* PBXTargetDependency */,
-				46EB2E0001E120 /* PBXTargetDependency */,
-				46EB2E0001E140 /* PBXTargetDependency */,
-				46EB2E0001E160 /* PBXTargetDependency */,
-				46EB2E0001E180 /* PBXTargetDependency */,
-				46EB2E0001E1A0 /* PBXTargetDependency */,
-				46EB2E0001E1C0 /* PBXTargetDependency */,
-				46EB2E0001E1E0 /* PBXTargetDependency */,
-				46EB2E0001E200 /* PBXTargetDependency */,
-				46EB2E0001E220 /* PBXTargetDependency */,
-				46EB2E0001E240 /* PBXTargetDependency */,
-				46EB2E0001E260 /* PBXTargetDependency */,
-				46EB2E0001E280 /* PBXTargetDependency */,
-				46EB2E0001E2A0 /* PBXTargetDependency */,
-				46EB2E0001E2C0 /* PBXTargetDependency */,
-				46EB2E0001E2E0 /* PBXTargetDependency */,
-				46EB2E0001E300 /* PBXTargetDependency */,
-				46EB2E0001E320 /* PBXTargetDependency */,
-				46EB2E0001E340 /* PBXTargetDependency */,
-				46EB2E0001E360 /* PBXTargetDependency */,
-				46EB2E0001E380 /* PBXTargetDependency */,
-				46EB2E0001E3A0 /* PBXTargetDependency */,
-				46EB2E0001E3C0 /* PBXTargetDependency */,
-				46EB2E0001E3E0 /* PBXTargetDependency */,
-				46EB2E0001E400 /* PBXTargetDependency */,
-				46EB2E0001E420 /* PBXTargetDependency */,
-				46EB2E0001E440 /* PBXTargetDependency */,
-				46EB2E0001E460 /* PBXTargetDependency */,
-				46EB2E0001E480 /* PBXTargetDependency */,
-				46EB2E0001E4A0 /* PBXTargetDependency */,
-				46EB2E0001E4C0 /* PBXTargetDependency */,
-				46EB2E0001E4E0 /* PBXTargetDependency */,
-				46EB2E0001E500 /* PBXTargetDependency */,
-				46EB2E0001E520 /* PBXTargetDependency */,
-				46EB2E0001E540 /* PBXTargetDependency */,
-				46EB2E0001E560 /* PBXTargetDependency */,
-				46EB2E0001E580 /* PBXTargetDependency */,
-				46EB2E0001E5A0 /* PBXTargetDependency */,
-				46EB2E0001E5C0 /* PBXTargetDependency */,
-				46EB2E0001E5E0 /* PBXTargetDependency */,
-				46EB2E0001E600 /* PBXTargetDependency */,
-				46EB2E0001E620 /* PBXTargetDependency */,
-				46EB2E0001E640 /* PBXTargetDependency */,
-				46EB2E0001E660 /* PBXTargetDependency */,
-				46EB2E0001E680 /* PBXTargetDependency */,
-				46EB2E0001E6A0 /* PBXTargetDependency */,
-				46EB2E0001E6C0 /* PBXTargetDependency */,
-				46EB2E0001E6E0 /* PBXTargetDependency */,
-				46EB2E0001E700 /* PBXTargetDependency */,
-				46EB2E0001E720 /* PBXTargetDependency */,
-				46EB2E0001E740 /* PBXTargetDependency */,
-				46EB2E0001E760 /* PBXTargetDependency */,
-				46EB2E0001E780 /* PBXTargetDependency */,
-				46EB2E0001E7A0 /* PBXTargetDependency */,
-				46EB2E0001E7C0 /* PBXTargetDependency */,
-				46EB2E0001E7E0 /* PBXTargetDependency */,
-				46EB2E0001E800 /* PBXTargetDependency */,
-				46EB2E0001E820 /* PBXTargetDependency */,
-				46EB2E0001E840 /* PBXTargetDependency */,
-				46EB2E0001E860 /* PBXTargetDependency */,
-				46EB2E0001E880 /* PBXTargetDependency */,
-				46EB2E0001E8A0 /* PBXTargetDependency */,
-				46EB2E0001E8C0 /* PBXTargetDependency */,
-				46EB2E0001E8E0 /* PBXTargetDependency */,
-			);
-			name = "Pods-AdminTiqueTaque";
-			productName = "Pods-AdminTiqueTaque";
-			productReference = B11E69AA535C14631FD6FC218019F90D /* Pods-AdminTiqueTaque */;
-			productType = "com.apple.product-type.library.static";
-		};
 		02B79DFED924FA19CA90EC69614733E1 /* fmt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E0001C5A0 /* Build configuration list for PBXNativeTarget "fmt" */;
@@ -19025,6 +18942,89 @@
 			name = "React-utils";
 			productName = "React-utils";
 			productReference = B7610E9FDE749C16C0B1CDAAF3B2DDC2 /* React-utils */;
+			productType = "com.apple.product-type.library.static";
+		};
+		308342EF6AD8BAD18F9781A4929C4201 /* Pods-Medical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E0001DDE0 /* Build configuration list for PBXNativeTarget "Pods-Medical" */;
+			buildPhases = (
+				46EB2E0001DE20 /* Headers */,
+				46EB2E0001DE30 /* Sources */,
+				46EB2E0001DE40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E0001E0C0 /* PBXTargetDependency */,
+				46EB2E0001E0E0 /* PBXTargetDependency */,
+				46EB2E0001E100 /* PBXTargetDependency */,
+				46EB2E0001E120 /* PBXTargetDependency */,
+				46EB2E0001E140 /* PBXTargetDependency */,
+				46EB2E0001E160 /* PBXTargetDependency */,
+				46EB2E0001E180 /* PBXTargetDependency */,
+				46EB2E0001E1A0 /* PBXTargetDependency */,
+				46EB2E0001E1C0 /* PBXTargetDependency */,
+				46EB2E0001E1E0 /* PBXTargetDependency */,
+				46EB2E0001E200 /* PBXTargetDependency */,
+				46EB2E0001E220 /* PBXTargetDependency */,
+				46EB2E0001E240 /* PBXTargetDependency */,
+				46EB2E0001E260 /* PBXTargetDependency */,
+				46EB2E0001E280 /* PBXTargetDependency */,
+				46EB2E0001E2A0 /* PBXTargetDependency */,
+				46EB2E0001E2C0 /* PBXTargetDependency */,
+				46EB2E0001E2E0 /* PBXTargetDependency */,
+				46EB2E0001E300 /* PBXTargetDependency */,
+				46EB2E0001E320 /* PBXTargetDependency */,
+				46EB2E0001E340 /* PBXTargetDependency */,
+				46EB2E0001E360 /* PBXTargetDependency */,
+				46EB2E0001E380 /* PBXTargetDependency */,
+				46EB2E0001E3A0 /* PBXTargetDependency */,
+				46EB2E0001E3C0 /* PBXTargetDependency */,
+				46EB2E0001E3E0 /* PBXTargetDependency */,
+				46EB2E0001E400 /* PBXTargetDependency */,
+				46EB2E0001E420 /* PBXTargetDependency */,
+				46EB2E0001E440 /* PBXTargetDependency */,
+				46EB2E0001E460 /* PBXTargetDependency */,
+				46EB2E0001E480 /* PBXTargetDependency */,
+				46EB2E0001E4A0 /* PBXTargetDependency */,
+				46EB2E0001E4C0 /* PBXTargetDependency */,
+				46EB2E0001E4E0 /* PBXTargetDependency */,
+				46EB2E0001E500 /* PBXTargetDependency */,
+				46EB2E0001E520 /* PBXTargetDependency */,
+				46EB2E0001E540 /* PBXTargetDependency */,
+				46EB2E0001E560 /* PBXTargetDependency */,
+				46EB2E0001E580 /* PBXTargetDependency */,
+				46EB2E0001E5A0 /* PBXTargetDependency */,
+				46EB2E0001E5C0 /* PBXTargetDependency */,
+				46EB2E0001E5E0 /* PBXTargetDependency */,
+				46EB2E0001E600 /* PBXTargetDependency */,
+				46EB2E0001E620 /* PBXTargetDependency */,
+				46EB2E0001E640 /* PBXTargetDependency */,
+				46EB2E0001E660 /* PBXTargetDependency */,
+				46EB2E0001E680 /* PBXTargetDependency */,
+				46EB2E0001E6A0 /* PBXTargetDependency */,
+				46EB2E0001E6C0 /* PBXTargetDependency */,
+				46EB2E0001E6E0 /* PBXTargetDependency */,
+				46EB2E0001E700 /* PBXTargetDependency */,
+				46EB2E0001E720 /* PBXTargetDependency */,
+				46EB2E0001E740 /* PBXTargetDependency */,
+				46EB2E0001E760 /* PBXTargetDependency */,
+				46EB2E0001E780 /* PBXTargetDependency */,
+				46EB2E0001E7A0 /* PBXTargetDependency */,
+				46EB2E0001E7C0 /* PBXTargetDependency */,
+				46EB2E0001E7E0 /* PBXTargetDependency */,
+				46EB2E0001E800 /* PBXTargetDependency */,
+				46EB2E0001E820 /* PBXTargetDependency */,
+				46EB2E0001E840 /* PBXTargetDependency */,
+				46EB2E0001E860 /* PBXTargetDependency */,
+				46EB2E0001E880 /* PBXTargetDependency */,
+				46EB2E0001E8A0 /* PBXTargetDependency */,
+				46EB2E0001E8C0 /* PBXTargetDependency */,
+				46EB2E0001E8E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Medical";
+			productName = "Pods-Medical";
+			productReference = 69C50A0C1B288BAFC5CFCDDF844B4196 /* Pods-Medical */;
 			productType = "com.apple.product-type.library.static";
 		};
 		32CA4CBD6B28983076BD93DA221AD027 /* YogaKit */ = {
@@ -19398,89 +19398,6 @@
 			name = MMKV;
 			productName = MMKV;
 			productReference = B88A54159B245E727A6D16DEFE105A09 /* MMKV */;
-			productType = "com.apple.product-type.library.static";
-		};
-		929C2E8B2BF1558B30FF834085216D01 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E0001DF20 /* Build configuration list for PBXNativeTarget "Pods-AdminTiqueTaque-AdminTiqueTaqueTests" */;
-			buildPhases = (
-				46EB2E0001DF60 /* Headers */,
-				46EB2E0001DF70 /* Sources */,
-				46EB2E0001DF80 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E0001E900 /* PBXTargetDependency */,
-				46EB2E0001E920 /* PBXTargetDependency */,
-				46EB2E0001E940 /* PBXTargetDependency */,
-				46EB2E0001E960 /* PBXTargetDependency */,
-				46EB2E0001E980 /* PBXTargetDependency */,
-				46EB2E0001E9A0 /* PBXTargetDependency */,
-				46EB2E0001E9C0 /* PBXTargetDependency */,
-				46EB2E0001E9E0 /* PBXTargetDependency */,
-				46EB2E0001EA00 /* PBXTargetDependency */,
-				46EB2E0001EA20 /* PBXTargetDependency */,
-				46EB2E0001EA40 /* PBXTargetDependency */,
-				46EB2E0001EA60 /* PBXTargetDependency */,
-				46EB2E0001EA80 /* PBXTargetDependency */,
-				46EB2E0001EAA0 /* PBXTargetDependency */,
-				46EB2E0001EAC0 /* PBXTargetDependency */,
-				46EB2E0001EAE0 /* PBXTargetDependency */,
-				46EB2E0001EB00 /* PBXTargetDependency */,
-				46EB2E0001EB20 /* PBXTargetDependency */,
-				46EB2E0001EB40 /* PBXTargetDependency */,
-				46EB2E0001EB60 /* PBXTargetDependency */,
-				46EB2E0001EB80 /* PBXTargetDependency */,
-				46EB2E0001EBA0 /* PBXTargetDependency */,
-				46EB2E0001EBC0 /* PBXTargetDependency */,
-				46EB2E0001EBE0 /* PBXTargetDependency */,
-				46EB2E0001EC00 /* PBXTargetDependency */,
-				46EB2E0001EC20 /* PBXTargetDependency */,
-				46EB2E0001EC40 /* PBXTargetDependency */,
-				46EB2E0001EC60 /* PBXTargetDependency */,
-				46EB2E0001EC80 /* PBXTargetDependency */,
-				46EB2E0001ECA0 /* PBXTargetDependency */,
-				46EB2E0001ECC0 /* PBXTargetDependency */,
-				46EB2E0001ECE0 /* PBXTargetDependency */,
-				46EB2E0001ED00 /* PBXTargetDependency */,
-				46EB2E0001ED20 /* PBXTargetDependency */,
-				46EB2E0001ED40 /* PBXTargetDependency */,
-				46EB2E0001ED60 /* PBXTargetDependency */,
-				46EB2E0001ED80 /* PBXTargetDependency */,
-				46EB2E0001EDA0 /* PBXTargetDependency */,
-				46EB2E0001EDC0 /* PBXTargetDependency */,
-				46EB2E0001EDE0 /* PBXTargetDependency */,
-				46EB2E0001EE00 /* PBXTargetDependency */,
-				46EB2E0001EE20 /* PBXTargetDependency */,
-				46EB2E0001EE40 /* PBXTargetDependency */,
-				46EB2E0001EE60 /* PBXTargetDependency */,
-				46EB2E0001EE80 /* PBXTargetDependency */,
-				46EB2E0001EEA0 /* PBXTargetDependency */,
-				46EB2E0001EEC0 /* PBXTargetDependency */,
-				46EB2E0001EEE0 /* PBXTargetDependency */,
-				46EB2E0001EF00 /* PBXTargetDependency */,
-				46EB2E0001EF20 /* PBXTargetDependency */,
-				46EB2E0001EF40 /* PBXTargetDependency */,
-				46EB2E0001EF60 /* PBXTargetDependency */,
-				46EB2E0001EF80 /* PBXTargetDependency */,
-				46EB2E0001EFA0 /* PBXTargetDependency */,
-				46EB2E0001EFC0 /* PBXTargetDependency */,
-				46EB2E0001EFE0 /* PBXTargetDependency */,
-				46EB2E0001F000 /* PBXTargetDependency */,
-				46EB2E0001F020 /* PBXTargetDependency */,
-				46EB2E0001F040 /* PBXTargetDependency */,
-				46EB2E0001F060 /* PBXTargetDependency */,
-				46EB2E0001F080 /* PBXTargetDependency */,
-				46EB2E0001F0A0 /* PBXTargetDependency */,
-				46EB2E0001F0C0 /* PBXTargetDependency */,
-				46EB2E0001F0E0 /* PBXTargetDependency */,
-				46EB2E0001F100 /* PBXTargetDependency */,
-				46EB2E0001F120 /* PBXTargetDependency */,
-			);
-			name = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests";
-			productName = "Pods-AdminTiqueTaque-AdminTiqueTaqueTests";
-			productReference = 2FC429DF3447F9C69CBFA659B6D81152 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests */;
 			productType = "com.apple.product-type.library.static";
 		};
 		938CCE22F6C4094B3FB6CF1478579E4B /* React-RCTAnimation */ = {
@@ -19918,6 +19835,89 @@
 			productReference = 666E72807891C591E025A75410CD2A26 /* React-perflogger */;
 			productType = "com.apple.product-type.library.static";
 		};
+		F58865CF96C8E2FB5D763344909DFBD0 /* Pods-Medical-MedicalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E0001DF20 /* Build configuration list for PBXNativeTarget "Pods-Medical-MedicalTests" */;
+			buildPhases = (
+				46EB2E0001DF60 /* Headers */,
+				46EB2E0001DF70 /* Sources */,
+				46EB2E0001DF80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E0001E900 /* PBXTargetDependency */,
+				46EB2E0001E920 /* PBXTargetDependency */,
+				46EB2E0001E940 /* PBXTargetDependency */,
+				46EB2E0001E960 /* PBXTargetDependency */,
+				46EB2E0001E980 /* PBXTargetDependency */,
+				46EB2E0001E9A0 /* PBXTargetDependency */,
+				46EB2E0001E9C0 /* PBXTargetDependency */,
+				46EB2E0001E9E0 /* PBXTargetDependency */,
+				46EB2E0001EA00 /* PBXTargetDependency */,
+				46EB2E0001EA20 /* PBXTargetDependency */,
+				46EB2E0001EA40 /* PBXTargetDependency */,
+				46EB2E0001EA60 /* PBXTargetDependency */,
+				46EB2E0001EA80 /* PBXTargetDependency */,
+				46EB2E0001EAA0 /* PBXTargetDependency */,
+				46EB2E0001EAC0 /* PBXTargetDependency */,
+				46EB2E0001EAE0 /* PBXTargetDependency */,
+				46EB2E0001EB00 /* PBXTargetDependency */,
+				46EB2E0001EB20 /* PBXTargetDependency */,
+				46EB2E0001EB40 /* PBXTargetDependency */,
+				46EB2E0001EB60 /* PBXTargetDependency */,
+				46EB2E0001EB80 /* PBXTargetDependency */,
+				46EB2E0001EBA0 /* PBXTargetDependency */,
+				46EB2E0001EBC0 /* PBXTargetDependency */,
+				46EB2E0001EBE0 /* PBXTargetDependency */,
+				46EB2E0001EC00 /* PBXTargetDependency */,
+				46EB2E0001EC20 /* PBXTargetDependency */,
+				46EB2E0001EC40 /* PBXTargetDependency */,
+				46EB2E0001EC60 /* PBXTargetDependency */,
+				46EB2E0001EC80 /* PBXTargetDependency */,
+				46EB2E0001ECA0 /* PBXTargetDependency */,
+				46EB2E0001ECC0 /* PBXTargetDependency */,
+				46EB2E0001ECE0 /* PBXTargetDependency */,
+				46EB2E0001ED00 /* PBXTargetDependency */,
+				46EB2E0001ED20 /* PBXTargetDependency */,
+				46EB2E0001ED40 /* PBXTargetDependency */,
+				46EB2E0001ED60 /* PBXTargetDependency */,
+				46EB2E0001ED80 /* PBXTargetDependency */,
+				46EB2E0001EDA0 /* PBXTargetDependency */,
+				46EB2E0001EDC0 /* PBXTargetDependency */,
+				46EB2E0001EDE0 /* PBXTargetDependency */,
+				46EB2E0001EE00 /* PBXTargetDependency */,
+				46EB2E0001EE20 /* PBXTargetDependency */,
+				46EB2E0001EE40 /* PBXTargetDependency */,
+				46EB2E0001EE60 /* PBXTargetDependency */,
+				46EB2E0001EE80 /* PBXTargetDependency */,
+				46EB2E0001EEA0 /* PBXTargetDependency */,
+				46EB2E0001EEC0 /* PBXTargetDependency */,
+				46EB2E0001EEE0 /* PBXTargetDependency */,
+				46EB2E0001EF00 /* PBXTargetDependency */,
+				46EB2E0001EF20 /* PBXTargetDependency */,
+				46EB2E0001EF40 /* PBXTargetDependency */,
+				46EB2E0001EF60 /* PBXTargetDependency */,
+				46EB2E0001EF80 /* PBXTargetDependency */,
+				46EB2E0001EFA0 /* PBXTargetDependency */,
+				46EB2E0001EFC0 /* PBXTargetDependency */,
+				46EB2E0001EFE0 /* PBXTargetDependency */,
+				46EB2E0001F000 /* PBXTargetDependency */,
+				46EB2E0001F020 /* PBXTargetDependency */,
+				46EB2E0001F040 /* PBXTargetDependency */,
+				46EB2E0001F060 /* PBXTargetDependency */,
+				46EB2E0001F080 /* PBXTargetDependency */,
+				46EB2E0001F0A0 /* PBXTargetDependency */,
+				46EB2E0001F0C0 /* PBXTargetDependency */,
+				46EB2E0001F0E0 /* PBXTargetDependency */,
+				46EB2E0001F100 /* PBXTargetDependency */,
+				46EB2E0001F120 /* PBXTargetDependency */,
+			);
+			name = "Pods-Medical-MedicalTests";
+			productName = "Pods-Medical-MedicalTests";
+			productReference = 232107164BA8AFDF71395DFE7822189A /* Pods-Medical-MedicalTests */;
+			productType = "com.apple.product-type.library.static";
+		};
 		F7D033C4C128EECAA020990641FA985F /* React-jsinspector */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E0001A860 /* Build configuration list for PBXNativeTarget "React-jsinspector" */;
@@ -20043,8 +20043,8 @@
 				91A6826828CB9FCD0169A7547E8A79EA /* MMKV */,
 				AC8AE887C706A43711D115E69B9D988A /* MMKVCore */,
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
-				006841DC9E20D688D8EE47BE2F8A5641 /* Pods-AdminTiqueTaque */,
-				929C2E8B2BF1558B30FF834085216D01 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests */,
+				308342EF6AD8BAD18F9781A4929C4201 /* Pods-Medical */,
+				F58865CF96C8E2FB5D763344909DFBD0 /* Pods-Medical-MedicalTests */,
 				EC55D52694092A9D0E6A78EB01207EB5 /* RCT-Folly */,
 				E7E7CE52C8C68B17224FF8C262D80ABF /* RCTRequired */,
 				D20469A9A1E5CFB26045EAEBE3F88E5E /* RCTTypeSafety */,
@@ -21844,7 +21844,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E0001DF00 /* Pods-AdminTiqueTaque-dummy.m in Sources */,
+				46EB2E0001DF00 /* Pods-Medical-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -21852,7 +21852,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E0001E040 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests-dummy.m in Sources */,
+				46EB2E0001E040 /* Pods-Medical-MedicalTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -27260,7 +27260,7 @@
 		};
 		46EB2E0001DDF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E0001DE60 /* Pods-AdminTiqueTaque.release.xcconfig */;
+			baseConfigurationReference = 46EB2E0001DE60 /* Pods-Medical.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -27269,7 +27269,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdminTiqueTaque/Pods-AdminTiqueTaque.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical/Pods-Medical.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -27283,7 +27283,7 @@
 		};
 		46EB2E0001DE00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E0001DE70 /* Pods-AdminTiqueTaque.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E0001DE70 /* Pods-Medical.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -27292,7 +27292,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdminTiqueTaque/Pods-AdminTiqueTaque.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical/Pods-Medical.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -27305,7 +27305,7 @@
 		};
 		46EB2E0001DF30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E0001DFA0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E0001DFA0 /* Pods-Medical-MedicalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -27314,7 +27314,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdminTiqueTaque-AdminTiqueTaqueTests/Pods-AdminTiqueTaque-AdminTiqueTaqueTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -27328,7 +27328,7 @@
 		};
 		46EB2E0001DF40 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E0001DFB0 /* Pods-AdminTiqueTaque-AdminTiqueTaqueTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E0001DFB0 /* Pods-Medical-MedicalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -27337,7 +27337,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdminTiqueTaque-AdminTiqueTaqueTests/Pods-AdminTiqueTaque-AdminTiqueTaqueTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -27963,7 +27963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E0001DDE0 /* Build configuration list for PBXNativeTarget "Pods-AdminTiqueTaque" */ = {
+		46EB2E0001DDE0 /* Build configuration list for PBXNativeTarget "Pods-Medical" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E0001DE00 /* Debug */,
@@ -27972,7 +27972,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E0001DF20 /* Build configuration list for PBXNativeTarget "Pods-AdminTiqueTaque-AdminTiqueTaqueTests" */ = {
+		46EB2E0001DF20 /* Build configuration list for PBXNativeTarget "Pods-Medical-MedicalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E0001DF40 /* Debug */,

@@ -1,6 +1,0 @@
-module Pods_AdminTiqueTaque_AdminTiqueTaqueTests {
-  umbrella header "Pods-AdminTiqueTaque-AdminTiqueTaqueTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-module Pods_AdminTiqueTaque {
-  umbrella header "Pods-AdminTiqueTaque-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -79,12 +79,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AdminTiqueTaque-AdminTiqueTaqueTests.xcscheme</key>
+		<key>Pods-Medical-MedicalTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AdminTiqueTaque.xcscheme</key>
+		<key>Pods-Medical.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
