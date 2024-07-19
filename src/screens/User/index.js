@@ -7,28 +7,57 @@ import { UIHeader } from '../../components/UI/Header';
 import { UITextInput } from '../../components/UI/TextInput';
 import { UIButton } from '../../components/UI/Button';
 import { SCREENS } from '../../constants/screens';
+import { useUserStore } from '../../stores/userStore';
 
 export const UserScreen = () => {
   const { colors } = useTheme();
   const { navigate } = useNavigation();
 
-  const [credential, setCredential] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [password, setPassword] = React.useState('');
+
+  const { signIn } = useUserStore();
+
+  const body = {
+    email,
+    password,
+  };
 
   return (
-    <UIBlock isFlex isSafe isKeyboard>
+    <UIBlock isFlex isSafe isKeyboard color={colors.white}>
       <UIBlock isFlex padding={'l'} gap={16}>
         <UIHeader />
 
         <UIText weight="semibold" size="3xl" color={colors.purple}>
           Qual seu e-mail{'\n'}ou celular?
         </UIText>
-        <UIBlock gap={16} tPadding="4xl">
+        <UIBlock gap={24} tPadding="4xl">
+          <UIBlock gap={8}>
+            <UIText weight="normal" size="l" color={colors.purple}>
+              Digite seu email
+            </UIText>
+            <UITextInput value={email} setValue={setEmail} />
+          </UIBlock>
+          <UIBlock gap={8}>
+            <UIText weight="normal" size="l" color={colors.purple}>
+              Digite sua senha
+            </UIText>
+            <UITextInput
+              value={password}
+              setValue={setPassword}
+              hasSecureEntry
+            />
+          </UIBlock>
           <UIButton
-            text="Próximo"
+            text="Entrar"
             onPress={() => {
-              if (credential !== '' || null) {
-                navigate(SCREENS.Password, { credential: credential });
-              }
+              signIn({
+                body,
+                onSuccess: res =>
+                  res.role === 'elderly'
+                    ? console.log('elderly')
+                    : console.log('caregiver'),
+              });
             }}
           />
         </UIBlock>

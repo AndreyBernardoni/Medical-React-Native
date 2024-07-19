@@ -16,13 +16,15 @@ export interface UserStateTypes {
   } | null;
   loading: boolean;
   error: RejectError | null;
+  loggedIn: boolean;
   setData: (data: Partial<UserStateTypes['data']>) => void;
   setError: (error: RejectError) => void;
   setLoading: (loading: boolean) => void;
-  // signIn: (params: {
-  //   onSuccess?: (data: Partial<UserStateTypes['data']>) => void;
-  //   onError?: (error: string) => void;
-  // }) => Promise<void>;
+  signIn: (params: {
+    onSuccess?: (data: Partial<UserStateTypes['data']>) => void;
+    onError?: (error: string) => void;
+    body: any;
+  }) => Promise<void>;
   signUp: (params: {
     onSuccess?: (data: Partial<UserStateTypes['data']>) => void;
     onError?: (error: string) => void;
