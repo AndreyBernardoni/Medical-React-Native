@@ -9,7 +9,13 @@ import { UIIcon } from '../Icon';
 
 import { SPACING } from '../../../constants/spacing';
 
-export const UITextInput = ({ value, setValue, hasIcon, hasSecureEntry }) => {
+export const UITextInput = ({
+  value,
+  setValue,
+  hasIcon,
+  hasSecureEntry,
+  capitalize,
+}) => {
   const { colors } = useTheme();
 
   const inputRef = useRef(null);
@@ -65,7 +71,7 @@ export const UITextInput = ({ value, setValue, hasIcon, hasSecureEntry }) => {
         autoFocus={true}
         autoCorrect={false}
         autoComplete="off"
-        autoCapitalize="none"
+        autoCapitalize={capitalize === true ? 'words' : 'none'}
         returnKeyType="search"
         secureTextEntry={hasSecureEntry ? !showPassword : false}
       />

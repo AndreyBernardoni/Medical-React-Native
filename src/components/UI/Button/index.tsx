@@ -36,8 +36,8 @@ export const UIButton = ({
         isRow
         isFlex={isFlex}
         gap={'s'}
-        vPadding={'s'}
-        radius={'l'}
+        vPadding={'m'}
+        radius={'xl'}
         vAlign="center"
         hAlign="center"
         border={2}
@@ -62,7 +62,7 @@ export const UIButton = ({
         isRow
         isFlex={isFlex}
         gap={'s'}
-        vPadding={'xs'}
+        vPadding={'m'}
         vAlign="center"
         hAlign="center"
         onPress={onPress}>
