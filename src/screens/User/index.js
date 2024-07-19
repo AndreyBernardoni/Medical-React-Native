@@ -23,7 +23,6 @@ export const UserScreen = () => {
           Qual seu e-mail{'\n'}ou celular?
         </UIText>
         <UIBlock gap={16} tPadding="4xl">
-          <UITextInput value={credential} setValue={setCredential} />
           <UIButton
             text="Próximo"
             onPress={() => {

@@ -53,11 +53,11 @@ export const WelcomeScreen = () => {
 
           <UIBlock isRow gap={8}>
             <UIText weight="regular" size="s" color={colors.text.quaternary}>
-              Ainda não tem acesso?
+              Ainda não tem cadastro?
             </UIText>
             <TouchableOpacity
               onPress={() => {
-                Linking.openURL('https://www.tiquetaque.com/');
+                navigate(SCREENS.Register);
               }}>
               <UIText weight="regular" size="s" color={colors.purple}>
                 Clique aqui

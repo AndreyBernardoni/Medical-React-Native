@@ -2,6 +2,7 @@ export const SCREENS = {
   AfterSplash: 'AfterSplash',
 
   Welcome: 'Welcome',
+  Register: 'Register',
   User: 'User',
   Password: 'Password',
 

@@ -29,6 +29,7 @@ import { UserScreen } from '../screens/User';
 import { VacationsScreen } from '../screens/Vacations';
 import { WelcomeScreen } from '../screens/Welcome';
 import { WorkLeavesScreen } from '../screens/WorkLeaves';
+import { RegisterScreen } from '../screens/Register';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -64,6 +65,7 @@ export const Navigation = () => {
           <Stack.Screen name={SCREENS.AfterSplash} component={AfterSplash} />
 
           <Stack.Screen name={SCREENS.Welcome} component={WelcomeScreen} />
+          <Stack.Screen name={SCREENS.Register} component={RegisterScreen} />
           <Stack.Screen name={SCREENS.User} component={UserScreen} />
           <Stack.Screen name={SCREENS.Password} component={PasswordScreen} />
 
