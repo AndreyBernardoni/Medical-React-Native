@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { API_URLS } from './api_urls';
 
-export const tiqueApi = axios.create({
-  baseURL: API_URLS.PROD,
+export const medicalApi = axios.create({
+  baseURL: API_URLS.LOCAL,
   headers: {
     'Cache-Control': 'no-cache',
     Pragma: 'no-cache',
@@ -10,4 +10,4 @@ export const tiqueApi = axios.create({
   timeout: 10000,
 });
 
-export const TIQUE_API_URL = tiqueApi.defaults.baseURL;
+export const MEDICAL_API_URL = medicalApi.defaults.baseURL;
