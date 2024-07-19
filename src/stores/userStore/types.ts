@@ -9,33 +9,24 @@ export interface RejectError {
 export interface UserStateTypes {
   data: {
     _id: string;
+    name: string;
     email: string;
-    token_verification: string;
-    _etag: string;
-    _version: number;
-    user_id: string;
-    verified_user: boolean;
-    roles: string[];
-    _created: string;
-    mobile_phone: string;
-    allowed_sites: string[];
-    _updated: string;
-    full_name: string;
-    _deleted: boolean;
-    send_adjustment_email: boolean;
-    account_creator: boolean;
-    intercom_chat: boolean;
-    is_freemium: boolean;
-    is_convenia: boolean;
+    role: string;
+    created_at: string;
   } | null;
   loading: boolean;
   error: RejectError | null;
   setData: (data: Partial<UserStateTypes['data']>) => void;
   setError: (error: RejectError) => void;
   setLoading: (loading: boolean) => void;
-  login: (params: {
+  // signIn: (params: {
+  //   onSuccess?: (data: Partial<UserStateTypes['data']>) => void;
+  //   onError?: (error: string) => void;
+  // }) => Promise<void>;
+  signUp: (params: {
     onSuccess?: (data: Partial<UserStateTypes['data']>) => void;
     onError?: (error: string) => void;
+    body: any;
   }) => Promise<void>;
   logout: () => void;
 }
