@@ -45,3 +45,5 @@ yarn-error.log
 .metro-health-check*
 
 /coverage
+
+/yarn.lock
