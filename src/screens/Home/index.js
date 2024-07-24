@@ -159,6 +159,7 @@ export const HomeScreen = () => {
         // data={[]}
         contentContainerStyle={{ flex: 1 }}
         ItemSeparatorComponent={() => <UIBlock height={16} />}
+        estimatedItemSize={5}
         renderItem={({ item }) => (
           <Items
             elderlyName={item.elderlyName}
