@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View } from 'react-native';
+import { ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useTheme } from '@react-navigation/native';
@@ -27,7 +27,6 @@ export const UIScroll = ({
         : colors.background.primary,
     },
     content: {
-      flexGrow: 1,
       paddingBottom: isSafe ? insets.bottom : 0,
     },
   });
