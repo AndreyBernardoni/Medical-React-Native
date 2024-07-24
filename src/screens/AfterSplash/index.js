@@ -1,19 +1,24 @@
-import React from 'react';
 import { useNavigation } from '@react-navigation/native';
+import React from 'react';
 import { UIBlock } from '../../components/UI/Block';
-import { useAuthStore } from '../../stores/authStore';
+import { SCREENS } from '../../constants/screens';
+import { useUserStore } from '../../stores/userStore';
 
 export const AfterSplash = () => {
   const { navigate } = useNavigation();
 
-  const token = useAuthStore.getState().data?.token;
+  const { data } = useUserStore();
 
   React.useEffect(() => {
-    if (token) {
-      navigate('Home');
+    if (data) {
+      if (data.role === 'caregiver') {
+        navigate(SCREENS.Home);
+      } else {
+        navigate(SCREENS.Home);
+      }
     } else {
-      navigate('Welcome');
+      navigate(SCREENS.Welcome);
     }
-  }, [token, navigate]);
+  }, [navigate, data]);
   return <UIBlock />;
 };
