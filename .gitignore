@@ -47,3 +47,15 @@ yarn-error.log
 /coverage
 
 /yarn.lock
+ios/Podfile.lock
+ios/Pods/Manifest.lock
+ios/Pods/Pods.xcodeproj/project.pbxproj
+ios/Pods/Pods.xcodeproj/xcuserdata/andrey.xcuserdatad/xcschemes/xcschememanagement.plist
+ios/Pods/Target Support Files/Pods-Medical/Pods-Medical-acknowledgements.markdown
+ios/Pods/Target Support Files/Pods-Medical/Pods-Medical-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-Medical/Pods-Medical.debug.xcconfig
+ios/Pods/Target Support Files/Pods-Medical/Pods-Medical.release.xcconfig
+ios/Pods/Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests-acknowledgements.markdown
+ios/Pods/Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests.debug.xcconfig
+ios/Pods/Target Support Files/Pods-Medical-MedicalTests/Pods-Medical-MedicalTests.release.xcconfig
