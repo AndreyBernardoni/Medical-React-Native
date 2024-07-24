@@ -3,28 +3,42 @@ import React from 'react';
 import { UIBlock } from '../../../components/UI/Block';
 import { UIText } from '../../../components/UI/Text';
 
-import { TiqueBitPlan } from '../../../components/TiqueBitPlan';
+import { useNavigation } from '@react-navigation/native';
+import { Userpic } from 'react-native-userpic';
+import { UIIcon } from '../../../components/UI/Icon';
+import { useUserStore } from '../../../stores/userStore';
 
 export const HomeGreeting = () => {
-  const today =
-    new Date().toLocaleDateString('pt-BR', {
-      day: 'numeric',
-      month: 'long',
-    }) +
-    ', ' +
-    new Date().getFullYear();
+  const { data } = useUserStore();
+
+  const navigation = useNavigation();
+
+  const role = data?.role === 'caregiver' ? 'Cuidador' : 'Idoso';
 
   return (
-    <UIBlock isRow hAlign="space-between">
+    <UIBlock isRow hAlign="between">
       <UIBlock>
-        <UIText size="l" semibold>
-          Boa tarde!
-        </UIText>
+        <UIIcon
+          name="menu"
+          onPress={() => {
+            navigation.openDrawer();
+          }}
+        />
+      </UIBlock>
+      <UIBlock isRow gap={16}>
+        <UIBlock>
+          <UIText size="l" semibold>
+            {data?.name}
+          </UIText>
 
-        <UIText secondary>{today}</UIText>
+          <UIText secondary align="right" size="s">
+            {role}
+          </UIText>
+        </UIBlock>
+        <Userpic name={data?.name} colorize />
       </UIBlock>
 
-      <TiqueBitPlan />
+      {/* <TiqueBitPlan /> */}
     </UIBlock>
   );
 };

@@ -1,9 +1,9 @@
-import React from 'react';
 import { useNavigation } from '@react-navigation/native';
+import React from 'react';
 
-import { UIText } from '../../../components/UI/Text';
-import { UIBlock } from '../../../components/UI/Block';
 import { UISkeleton } from '../../../components/Skeleton';
+import { UIBlock } from '../../../components/UI/Block';
+import { UIText } from '../../../components/UI/Text';
 
 import { SCREENS } from '../../../constants/screens';
 
@@ -33,37 +33,29 @@ export const HomeCards = () => {
   return (
     <UIBlock gap={'xs'}>
       <UIBlock isRow gap={'xs'}>
-        <UISkeleton height={78} isFlex loading={!data?.totals} borderRadius={8}>
+        <UISkeleton height={78} isFlex loading={false} borderRadius={8}>
           <Card
-            label={'Trabalhando'}
-            value={data?.totals?.working}
+            label={'Remédios administrados'}
+            value={3}
             onPress={onWorking}
           />
         </UISkeleton>
-        <UISkeleton height={78} isFlex loading={!data?.totals} borderRadius={8}>
+        <UISkeleton height={78} isFlex loading={false} borderRadius={8}>
           <Card
-            label={'Atrasados'}
-            value={data?.totals?.late}
+            label={'Remédios não administrados'}
+            value={0}
             onPress={onLate}
           />
         </UISkeleton>
       </UIBlock>
 
       <UIBlock isRow gap={'xs'}>
-        <UISkeleton height={78} isFlex loading={!data?.totals} borderRadius={8}>
-          <Card
-            label={'Hora extra'}
-            value={data?.totals?.extra_time}
-            onPress={onExtra}
-          />
+        <UISkeleton height={78} isFlex loading={false} borderRadius={8}>
+          <Card label={'Idosos cadastrados'} value={1} onPress={onExtra} />
         </UISkeleton>
 
-        <UISkeleton height={78} isFlex loading={!data?.totals} borderRadius={8}>
-          <Card
-            label={'Saída antecipada'}
-            value={data?.totals?.early_leave}
-            onPress={onEarly}
-          />
+        <UISkeleton height={78} isFlex loading={false} borderRadius={8}>
+          <Card label={'Remédios para hoje'} value={10} onPress={onEarly} />
         </UISkeleton>
       </UIBlock>
     </UIBlock>

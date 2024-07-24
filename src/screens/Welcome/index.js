@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { UIBlock } from '../../components/UI/Block';
 import { useNavigation, useTheme } from '@react-navigation/native';
-import { UIText } from '../../components/UI/Text';
+import { Dimensions, Image, TouchableOpacity } from 'react-native';
+import { UIBlock } from '../../components/UI/Block';
 import { UIButton } from '../../components/UI/Button';
-import { Dimensions, Image, Linking, TouchableOpacity } from 'react-native';
+import { UIText } from '../../components/UI/Text';
 import { IMAGES } from '../../constants/images';
 import { SCREENS } from '../../constants/screens';
 
