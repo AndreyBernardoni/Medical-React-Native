@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { UIBlock, UIRow } from '../../components/UI/Block';
 import { useNavigation, useTheme } from '@react-navigation/native';
-import { UIText } from '../../components/UI/Text';
-import { UIHeader } from '../../components/UI/Header';
-import { UIButton } from '../../components/UI/Button';
-import Carousel from 'react-native-reanimated-carousel';
-import { Item } from './Item';
 import { Alert } from 'react-native';
+import Carousel from 'react-native-reanimated-carousel';
+import { UIBlock, UIRow } from '../../components/UI/Block';
+import { UIButton } from '../../components/UI/Button';
+import { UIHeader } from '../../components/UI/Header';
 import { UIScroll } from '../../components/UI/Scroll';
-import { useUserStore } from '../../stores/userStore';
+import { UIText } from '../../components/UI/Text';
 import { SCREENS } from '../../constants/screens';
+import { useUserStore } from '../../stores/userStore';
+import { Item } from './Item';
 
 export const RegisterScreen = () => {
   const [width, setWidth] = React.useState(1);
@@ -138,11 +138,10 @@ export const RegisterScreen = () => {
                 <UIButton
                   text="Concluir"
                   onPress={async () => {
-                    // signUp: async ({ onSuccess, onError, body }) => {
                     await signUp({
                       body: User,
                       onSuccess: () => {
-                        navigate(SCREENS.Welcome);
+                        navigate(SCREENS.Home);
                       },
                       onError: () => {
                         Alert.alert(
@@ -158,8 +157,6 @@ export const RegisterScreen = () => {
                         );
                       },
                     });
-
-                    // navigate(SCREENS.Welcome);
                   }}
                 />
               )}

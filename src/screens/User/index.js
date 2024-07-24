@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { UIBlock } from '../../components/UI/Block';
 import { useNavigation, useTheme } from '@react-navigation/native';
-import { UIText } from '../../components/UI/Text';
-import { UIHeader } from '../../components/UI/Header';
-import { UITextInput } from '../../components/UI/TextInput';
+import { UIBlock } from '../../components/UI/Block';
 import { UIButton } from '../../components/UI/Button';
+import { UIHeader } from '../../components/UI/Header';
+import { UIText } from '../../components/UI/Text';
+import { UITextInput } from '../../components/UI/TextInput';
 import { SCREENS } from '../../constants/screens';
 import { useUserStore } from '../../stores/userStore';
 
@@ -55,8 +55,8 @@ export const UserScreen = () => {
                 body,
                 onSuccess: res =>
                   res.role === 'elderly'
-                    ? console.log('elderly')
-                    : console.log('caregiver'),
+                    ? navigate(SCREENS.Home)
+                    : navigate(SCREENS.Home),
               });
             }}
           />
